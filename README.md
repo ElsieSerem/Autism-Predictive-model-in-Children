@@ -25,6 +25,8 @@ __*3) Offer Accessible Screening for Parents and Educators:*__  Make the tool av
 __*4) Support Public Health Organizations and Insurers:*__  Enable bulk licensing for community-wide screening programs, creating a consistent revenue stream and supporting public health initiatives.
 
 ## Data Understanding
+
+The [Child Autism Data](https://www.kaggle.com/datasets/ashishpawar511/autistic-spectrum-disorder-screening-for-children) is  a dataset obtained from kaggle and it contains the following information:
 The dataset used for this project consists of 292 records of screening results from an autism screening app for children between the ages 4 to 11 years. The dataset includes features such as gender, age, ethnicity, family ASD history, and various questionnaire scores that help determine ASD likelihood.
 
 ***Key Features:***
@@ -32,6 +34,8 @@ The dataset used for this project consists of 292 records of screening results f
 * **Demographic Data:** Age, gender, ethnicity, etc.
 * **Medical History:** Family ASD history, presence of jaundice, etc.
 * **Screening Results:** Scores from ten behavioral screening questions.
+
+
 
 ### Correlation Heat Map
 <h1 align="center">
