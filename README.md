@@ -61,7 +61,7 @@ To determine the best model for predicting autism, we evaluated three different 
 * **Random Forest** builds on the strengths of Decision Trees by aggregating multiple trees, reducing overfitting, and improving overall predictive performance.
 
 ### Baseline Model Choice
-Our analysis began by establishing a baseline model using Logistic Regression with the **A10_Score** feature, which showed a high correlation with the target variable **Class/ASD**. This feature was selected to create a simple yet effective benchmark for evaluating subsequent models.
+Our analysis began by establishing a baseline model using the **A10_Score** feature, which showed a high correlation with the target variable **Class/ASD**. This feature was selected to create a simple yet effective benchmark for evaluating subsequent models.
 
 ### Model Performance and Evaluation
 1) **Logistic Regression**
