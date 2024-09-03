@@ -33,8 +33,10 @@ The dataset used for this project consists of 292 records of screening results f
 * **Medical History:** Family ASD history, presence of jaundice, etc.
 * **Screening Results:** Scores from ten behavioral screening questions.
 
-# Link to Dataset![Heatmap Image]
-Insert heatmap here to show feature correlations.
+### Correlation Heat Map
+<h1 align="center">
+  <img src="https://github.com/ElsieSerem/Autism-Predictive-model-in-Children/blob/main/Images/Correlation%20heat%20map.png?raw=true" alt="ABC Industries" height = 400 width="800" />
+</h1>
 
 Features with high correlation to the target variable are likely to significantly enhance the model’s performance. For this project, the A_scores show strong correlation and thus play a key role in establishing a robust baseline model. This helps in setting a solid foundation for evaluating and refining the model as additional complexity is introduced.
 
@@ -87,7 +89,16 @@ Logistic Regression has a high mean accuracy, indicating its effectiveness in ge
 
 ***Training and Validation Scores:*** The training score remains high and stable, showing that the model fits the training data well. The validation score initially lags but improves and stabilizes as more data is introduced, indicating reduced overfitting and enhanced generalization.
 
-***Learning Curve:*** The initial low validation score compared to the high training score suggested potential overfitting. However, as the dataset grew, the validation score improved, reflecting better generalization and reduced overfitting.
+### Learning Curve
+A learning curve is used to evaluate how a machine learning model's performance improves with additional training data and to diagnose issues like overfitting or underfitting. By comparing training and validation scores over time, it helps to understand whether a model is learning effectively, whether it needs more data or adjustments, and if its complexity is appropriate. Essentially, learning curves provide valuable insights into the model's ability to generalize and guide improvements for better performance.
+
+### Graph showing Learning curve
+
+<h1 align="center">
+  <img src="https://github.com/ElsieSerem/Autism-Predictive-model-in-Children/blob/main/Images/Learning%20Curve.png?raw=true" alt="ABC Industries" height = 400 width="800" />
+</h1>
+
+***Interpratation:*** The initial low validation score compared to the high training score suggested potential overfitting. However, as the dataset grew, the validation score improved, reflecting better generalization and reduced overfitting.
 
 ## Conclusion
 In conclusion, Logistic Regression is the preferred model due to its highest accuracy, balanced performance across classes, and strong generalization capabilities. It achieved the highest accuracy at 93.2% and demonstrated effective identification of autism cases with well-balanced precision and recall. Its ability to generalize well from the training data makes it the most reliable choice for practical applications, ensuring accurate and reliable predictions in real-world scenarios.
